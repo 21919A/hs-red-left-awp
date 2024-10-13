@@ -29,8 +29,8 @@ def autonomous_function():
     # Then try resetting it to GPS if GPS sensor is installed and reports high quality
     reset_odometry_to_gps()
 
-    intake_1st_stage.set_velocity(470, RPM)
-    intake_2nd_stage.set_velocity(470, RPM)
+    intake_1st_stage.set_velocity(450, RPM)
+    intake_2nd_stage.set_velocity(450, RPM)
     pid_driver.drive(-1000, True)
     clamp.set(True)
     pid_turner.turn(80, FRAME_HEADING_RELATIVE)
@@ -42,14 +42,14 @@ def autonomous_function():
     reset_odometry_to_gps()
 
     pid_driver.drive(550)
-    pid_turner.turn(60, FRAME_HEADING_RELATIVE)
+    pid_turner.turn(105, FRAME_HEADING_RELATIVE)
     pid_driver.drive(270)
 
     wait(1000, MSEC)
     reset_odometry_to_gps()
 
-    pid_turner.turn(-80, FRAME_HEADING_RELATIVE)
-    pid_driver.drive(-600, False)
+    pid_turner.turn(-90, FRAME_HEADING_RELATIVE)
+    pid_driver.drive(-900, False)
 
     wait(1000, MSEC)
     reset_odometry_to_gps()
