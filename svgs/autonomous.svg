@@ -123,13 +123,14 @@
 <path d="M -1579,0 a 89 89 0 0 0 178 0 a 89 89 0 0 0 -178 0 z m 51 0 a 38 38 0 0 0 76 0 a 38 38 0 0 0 -76 0 z" fill="#5555cc" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
 <path d="M -179,-90 a 89 89 0 0 0 178 0 a 89 89 0 0 0 -178 0 z m 51 0 a 38 38 0 0 0 76 0 a 38 38 0 0 0 -76 0 z" fill="#5555cc" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
 <path d="M -1289,-1200 a 89 89 0 0 0 178 0 a 89 89 0 0 0 -178 0 z m 51 0 a 38 38 0 0 0 76 0 a 38 38 0 0 0 -76 0 z" fill="#5555cc" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
-<polyline points="-1497,603 -497,603 -593,1145 -324,1121" fill="none" stroke="#ffffff" stroke-width="51" stroke-linejoin="round"/>
-<polyline points="-1503,597 -503,597 -599,1139 -330,1115" fill="none" stroke="#ffffff" stroke-width="51" stroke-linejoin="round"/>
-<polyline points="-1500,600 -500,600 -596,1142 -327,1118" fill="none" stroke="#000000" stroke-width="51" stroke-dasharray="51,102" stroke-linejoin="round"/>
-<polyline points="-1500,600 -500,600 -596,1142 -327,1118" fill="none" stroke="#55ff55" stroke-width="51" stroke-dasharray="51,102" stroke-dashoffset="102" stroke-linejoin="round"/>
-<polyline points="-1500,600 -500,600 -596,1142 -327,1118" fill="none" stroke="#ffffff" stroke-width="51" stroke-dasharray="51,102" stroke-dashoffset="51" stroke-linejoin="round"/>
+<polyline points="-1497,603 -417,603 -554,979 -605,1120 -336,1143 -327,1193" fill="none" stroke="#ffffff" stroke-width="51" stroke-linejoin="round"/>
+<polyline points="-1503,597 -423,597 -560,973 -611,1114 -342,1137 -333,1187" fill="none" stroke="#ffffff" stroke-width="51" stroke-linejoin="round"/>
+<polyline points="-1500,600 -420,600 -557,976 -608,1117 -339,1140 -330,1190" fill="none" stroke="#000000" stroke-width="51" stroke-dasharray="51,102" stroke-linejoin="round"/>
+<polyline points="-1500,600 -420,600 -557,976 -608,1117 -339,1140 -330,1190" fill="none" stroke="#55ff55" stroke-width="51" stroke-dasharray="51,102" stroke-dashoffset="102" stroke-linejoin="round"/>
+<polyline points="-1500,600 -420,600 -557,976 -608,1117 -339,1140 -330,1190" fill="none" stroke="#ffffff" stroke-width="51" stroke-dasharray="51,102" stroke-dashoffset="51" stroke-linejoin="round"/>
 <path d="M -1500,600 l -77 133 a 89 89 0 1 0 154 0 z m -19 177 a 19 19 0 0 0 38 0 a 19 19 0 0 0 -38 0 z" fill="#ff0000" stroke="#ffffff" stroke-width="3" fill-rule="evenodd"/>
-<path d="M -500,600 l -77 133 a 89 89 0 1 0 154 0 z m -19 177 a 19 19 0 0 0 38 0 a 19 19 0 0 0 -38 0 z" fill="#ff0000" stroke="#ffffff" stroke-width="3" fill-rule="evenodd"/>
-<path d="M -327,1118 l -77 133 a 89 89 0 1 0 154 0 z m -19 177 a 19 19 0 0 0 38 0 a 19 19 0 0 0 -38 0 z" fill="#ff0000" stroke="#ffffff" stroke-width="3" fill-rule="evenodd"/>
+<path d="M -420,600 l -77 133 a 89 89 0 1 0 154 0 z m -19 177 a 19 19 0 0 0 38 0 a 19 19 0 0 0 -38 0 z" fill="#ff0000" stroke="#ffffff" stroke-width="3" fill-rule="evenodd"/>
+<path d="M -339,1140 l -77 133 a 89 89 0 1 0 154 0 z m -19 177 a 19 19 0 0 0 38 0 a 19 19 0 0 0 -38 0 z" fill="#ff0000" stroke="#ffffff" stroke-width="3" fill-rule="evenodd"/>
+<path d="M -330,1190 l -77 133 a 89 89 0 1 0 154 0 z m -19 177 a 19 19 0 0 0 38 0 a 19 19 0 0 0 -38 0 z" fill="#ff0000" stroke="#ffffff" stroke-width="3" fill-rule="evenodd"/>
 </g>
 </svg>
