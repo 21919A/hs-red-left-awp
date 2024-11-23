@@ -33,20 +33,20 @@ def autonomous_function():
     intake_2nd_stage.set_velocity(450, RPM)
     pid_driver.drive(-1080, True)
     clamp.set(True)
-    pid_turner.turn(70, FRAME_HEADING_RELATIVE)
+    pid_turner.turn(120, FRAME_HEADING_RELATIVE)
 
 
     wait(1000, MSEC)
     reset_odometry_to_gps()
-    
-    pid_driver.drive(400)
-
     intake_1st_stage.spin(REVERSE)
     intake_2nd_stage.spin(FORWARD)
-    pid_driver.drive(150)
+    pid_driver.drive(400)
 
-    pid_turner.turn(105, FRAME_HEADING_RELATIVE)
-    pid_driver.drive(270)
+    pid_turner.turn(-70, FRAME_HEADING_RELATIVE)
+    pid_driver.drive(200)
+
+    # pid_turner.turn(105, FRAME_HEADING_RELATIVE)
+    # pid_driver.drive(270)
 
     wait(500, MSEC)
     reset_odometry_to_gps()
