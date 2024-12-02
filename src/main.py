@@ -23,41 +23,40 @@ def autonomous_function():
 
     log(("Competition", "competition"), "autonomous_begin")
 
-    # Reset odometry to the starting autonomous position
-    odometry.reset(PositionWithHeading(-1500, 600, -90))
+    robot_position.reset(Position(-1500, 600))
+    inertial.set_heading(-90)
 
     # Then try resetting it to GPS if GPS sensor is installed and reports high quality
-    reset_odometry_to_gps()
+    reset_robot_position_and_heading_to_gps()
 
     intake_1st_stage.set_velocity(450, RPM)
     intake_2nd_stage.set_velocity(450, RPM)
-    pid_driver.drive(-1080, True)
+    trigger_driver.drive(-1080)  # overshoot_done=True
     clamp.set(True)
-    pid_turner.turn(120, FRAME_HEADING_RELATIVE)
-
+    trigger_turner.turn(120, FRAME_HEADING_RELATIVE)
 
     wait(1000, MSEC)
-    reset_odometry_to_gps()
+    reset_robot_position_and_heading_to_gps()
     intake_1st_stage.spin(REVERSE)
     intake_2nd_stage.spin(FORWARD)
-    pid_driver.drive(400)
+    trigger_driver.drive(400)
 
-    pid_turner.turn(-70, FRAME_HEADING_RELATIVE)
-    pid_driver.drive(200)
+    trigger_turner.turn(-70, FRAME_HEADING_RELATIVE)
+    trigger_driver.drive(200)
 
-    # pid_turner.turn(105, FRAME_HEADING_RELATIVE)
-    # pid_driver.drive(270)
+    # trigger_turner.turn(105, FRAME_HEADING_RELATIVE)
+    # trigger_driver.drive(270)
 
     wait(500, MSEC)
-    reset_odometry_to_gps()
+    reset_robot_position_and_heading_to_gps()
     wait(50, MSEC)
     # intake_2nd_stage.stop()
-    pid_turner.turn(-75, FRAME_HEADING_RELATIVE)
-    pid_driver.drive(50)
-    # pid_driver.drive(-900, False)
+    trigger_turner.turn(-75, FRAME_HEADING_RELATIVE)
+    trigger_driver.drive(50)
+    # trigger_driver.drive(-900)
 
     wait(1000, MSEC)
-    reset_odometry_to_gps()
+    reset_robot_position_and_heading_to_gps()
 
     log(("Competition", "competition"), "autonomous_end")
 
