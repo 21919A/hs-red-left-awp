@@ -26,7 +26,7 @@ def autonomous_function():
     robot_position.reset(Position(-1500, 600))
     inertial.set_heading(-90)
 
-    # Then try resetting it to GPS if GPS sensor is installed and reports high quality
+    # Then try resetting to GPS if GPS sensor is installed and reports high quality
     reset_robot_position_and_heading_to_gps()
 
     intake_1st_stage.set_velocity(450, RPM)
