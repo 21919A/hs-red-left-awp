@@ -29,52 +29,23 @@ def autonomous_function():
     # Then try resetting to GPS if GPS sensor is installed and reports high quality
     reset_robot_position_and_heading_to_gps()
 
-    trigger_driver.drive(-900)
+    slow_trigger_mover.move(Position(-600, 600), REVERSE)
     clamp.set(True)
-    trigger_turner.turn(132, FRAME_HEADING_RELATIVE)
+    trigger_turner.turn(42, FRAME_ABSOLUTE)
     intake.spin_forward()
-    trigger_driver.drive(650)
-    trigger_turner.turn(-18, FRAME_HEADING_RELATIVE)
-    trigger_driver.drive(150)
-    trigger_driver.drive(-400)
-    trigger_turner.turn(-70, FRAME_HEADING_RELATIVE)
+    trigger_mover.move(Position(-165, 1083))
+    trigger_mover.move(Position(-104, 1220))
+    trigger_mover.move(Position(-267, 855), REVERSE)
     reset_robot_position_and_heading_to_gps()
-    trigger_driver.drive(500)
-    trigger_turner.turn(-20, FRAME_HEADING_RELATIVE)
+    trigger_mover.move(Position(-626, 1202))
     reset_robot_position_and_heading_to_gps()
-    trigger_driver.drive(1100)
-    trigger_driver.drive(-460)
+    trigger_mover.move(Position(-1631, 1649))
+    trigger_mover.move(Position(-1211, 1462), REVERSE)
     reset_robot_position_and_heading_to_gps()
     trigger_turner.turn(-115, FRAME_HEADING_RELATIVE)
     intake_retract.set(True)
-    trigger_driver.drive(1350)
+    trigger_mover.move(Position(-1188, 113), REVERSE)
     intake_retract.set(False)
-
-    # trigger_driver.drive(-1080)  # overshoot_done=True
-    # clamp.set(True)
-    # trigger_turner.turn(120, FRAME_HEADING_RELATIVE)
-
-    # wait(1000, MSEC)
-    # reset_robot_position_and_heading_to_gps()
-    # intake.spin_forward()
-    # trigger_driver.drive(400)
-
-    # trigger_turner.turn(-70, FRAME_HEADING_RELATIVE)
-    # trigger_driver.drive(200)
-
-    # # trigger_turner.turn(105, FRAME_HEADING_RELATIVE)
-    # # trigger_driver.drive(270)
-
-    # wait(500, MSEC)
-    # reset_robot_position_and_heading_to_gps()
-    # wait(50, MSEC)
-    # # intake.stop()
-    # trigger_turner.turn(-75, FRAME_HEADING_RELATIVE)
-    # trigger_driver.drive(50)
-    # # trigger_driver.drive(-900)
-
-    # wait(1000, MSEC)
-    # reset_robot_position_and_heading_to_gps()
 
     log(("Competition", "competition"), "autonomous_end")
 
