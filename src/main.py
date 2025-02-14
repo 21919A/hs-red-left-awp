@@ -36,16 +36,25 @@ def autonomous_function():
     trigger_mover.move(Position(-165, 1083))
     trigger_mover.move(Position(-104, 1220))
     trigger_mover.move(Position(-267, 855), REVERSE)
+
     reset_robot_position_and_heading_to_gps()
+
     trigger_mover.move(Position(-626, 1202))
+
     reset_robot_position_and_heading_to_gps()
+
     trigger_mover.move(Position(-1631, 1649))
     trigger_mover.move(Position(-1211, 1462), REVERSE)
+
     reset_robot_position_and_heading_to_gps()
+
     trigger_turner.turn(-115, FRAME_HEADING_RELATIVE)
     intake_retract.set(True)
     trigger_mover.move(Position(-1188, 113), REVERSE)
     intake_retract.set(False)
+
+    wait(1000, MSEC)
+    reset_robot_position_and_heading_to_gps()
 
     log(("Competition", "competition"), "autonomous_end")
 
