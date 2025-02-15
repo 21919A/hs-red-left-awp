@@ -29,7 +29,7 @@ def autonomous_function():
     reset_robot_position_and_heading_to_gps()
 
     slow_trigger_mover.move(Position(-800, 600), REVERSE)
-    clamp.set(True)
+    wait_and_clamp()
 
     # Use this for 4-ring
     trigger_mover.move(Position(-600, 1200))
@@ -39,13 +39,13 @@ def autonomous_function():
     wait(1500, MSEC)
     trigger_turner.turn(180, FRAME_ABSOLUTE)
     trigger_driver.drive(750)
-    clamp.set(False)
+    unclamp()
 
     # Use this for 2-ring
     # trigger_turner.turn(42, FRAME_ABSOLUTE)
     # intake.spin_forward()
     # trigger_mover.move(Position(-350, 1000))
-    # clamp.set(False)
+    # unclamp()
 
     reset_robot_position_and_heading_to_gps()
 
