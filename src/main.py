@@ -34,7 +34,7 @@ def autonomous_function():
     # Use this for 4-ring
     trigger_mover.move(Position(-600, 1200))
     trigger_mover.move(Position(-350, 1300))
-    trigger_mover.move(Position(-600, 1200))
+    trigger_mover.move(Position(-600, 1200), REVERSE)
     trigger_mover.move(Position(-350, 1150))
     wait(1500, MSEC)
     trigger_turner.turn(180, FRAME_ABSOLUTE)
