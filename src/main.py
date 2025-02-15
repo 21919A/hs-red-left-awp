@@ -31,6 +31,7 @@ def autonomous_function():
     slow_trigger_mover.move(Position(-800, 600), REVERSE)
     clamp.set(True)
 
+    # Use this for 4-ring
     trigger_mover.move(Position(-600, 1200))
     trigger_mover.move(Position(-300, 1300))
     trigger_mover.move(Position(-600, 1200))
@@ -39,6 +40,7 @@ def autonomous_function():
     trigger_mover.move(Position(-300, 300))
     clamp.set(False)
 
+    # Use this for 2-ring
     # trigger_turner.turn(42, FRAME_ABSOLUTE)
     # intake.spin_forward()
     # trigger_mover.move(Position(-350, 1000))
