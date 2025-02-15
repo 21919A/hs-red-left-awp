@@ -33,11 +33,11 @@ def autonomous_function():
 
     # Use this for 4-ring
     trigger_mover.move(Position(-600, 1200))
-    trigger_mover.move(Position(-300, 1300))
+    trigger_mover.move(Position(-350, 1300))
     trigger_mover.move(Position(-600, 1200))
-    trigger_mover.move(Position(-300, 1150))
+    trigger_mover.move(Position(-350, 1150))
     wait(1500, MSEC)
-    trigger_mover.move(Position(-300, 300))
+    trigger_mover.move(Position(-350, 300))
     clamp.set(False)
 
     # Use this for 2-ring
