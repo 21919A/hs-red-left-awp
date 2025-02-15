@@ -123,12 +123,12 @@
 <path d="M -1579,0 a 89 89 0 0 0 178 0 a 89 89 0 0 0 -178 0 z m 51 0 a 38 38 0 0 0 76 0 a 38 38 0 0 0 -76 0 z" fill="#5555cc" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
 <path d="M -179,-90 a 89 89 0 0 0 178 0 a 89 89 0 0 0 -178 0 z m 51 0 a 38 38 0 0 0 76 0 a 38 38 0 0 0 -76 0 z" fill="#5555cc" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
 <path d="M -1289,-1200 a 89 89 0 0 0 178 0 a 89 89 0 0 0 -178 0 z m 51 0 a 38 38 0 0 0 76 0 a 38 38 0 0 0 -76 0 z" fill="#5555cc" stroke="#000000" stroke-width="3" fill-rule="evenodd"/>
-<polyline points="-1497,1303 -797,603 -597,1203 -237,1213 -597,1203 -237,1103 -237,353" fill="none" stroke="#ffffff" stroke-width="51" stroke-linejoin="round"/>
-<polyline points="-1503,1297 -803,597 -603,1197 -243,1207 -603,1197 -243,1097 -243,347" fill="none" stroke="#ffffff" stroke-width="51" stroke-linejoin="round"/>
-<polyline points="-1500,1300 -800,600 -600,1200 -240,1210 -600,1200 -240,1100 -240,350" fill="none" stroke="#000000" stroke-width="51" stroke-dasharray="51,102" stroke-linejoin="round"/>
-<polyline points="-1500,1300 -800,600 -600,1200 -240,1210 -600,1200 -240,1100 -240,350" fill="none" stroke="#55ff55" stroke-width="51" stroke-dasharray="51,102" stroke-dashoffset="102" stroke-linejoin="round"/>
-<polyline points="-1500,1300 -800,600 -600,1200 -240,1210 -600,1200 -240,1100 -240,350" fill="none" stroke="#ffffff" stroke-width="51" stroke-dasharray="51,102" stroke-dashoffset="51" stroke-linejoin="round"/>
-<path d="M -1500,1300 l -77 133 a 89 89 0 1 0 154 0 z m -19 177 a 19 19 0 0 0 38 0 a 19 19 0 0 0 -38 0 z" fill="#ff0000" stroke="#ffffff" stroke-width="3" fill-rule="evenodd"/>
+<polyline points="-1497,1203 -597,603 -597,1203 -237,1213 -597,1203 -237,1103 -237,353" fill="none" stroke="#ffffff" stroke-width="51" stroke-linejoin="round"/>
+<polyline points="-1503,1197 -603,597 -603,1197 -243,1207 -603,1197 -243,1097 -243,347" fill="none" stroke="#ffffff" stroke-width="51" stroke-linejoin="round"/>
+<polyline points="-1500,1200 -600,600 -600,1200 -240,1210 -600,1200 -240,1100 -240,350" fill="none" stroke="#000000" stroke-width="51" stroke-dasharray="51,102" stroke-linejoin="round"/>
+<polyline points="-1500,1200 -600,600 -600,1200 -240,1210 -600,1200 -240,1100 -240,350" fill="none" stroke="#55ff55" stroke-width="51" stroke-dasharray="51,102" stroke-dashoffset="102" stroke-linejoin="round"/>
+<polyline points="-1500,1200 -600,600 -600,1200 -240,1210 -600,1200 -240,1100 -240,350" fill="none" stroke="#ffffff" stroke-width="51" stroke-dasharray="51,102" stroke-dashoffset="51" stroke-linejoin="round"/>
+<path d="M -1500,1200 l -77 133 a 89 89 0 1 0 154 0 z m -19 177 a 19 19 0 0 0 38 0 a 19 19 0 0 0 -38 0 z" fill="#ff0000" stroke="#ffffff" stroke-width="3" fill-rule="evenodd"/>
 <path d="M -240,350 l -77 133 a 89 89 0 1 0 154 0 z m -19 177 a 19 19 0 0 0 38 0 a 19 19 0 0 0 -38 0 z" fill="#ff0000" stroke="#ffffff" stroke-width="3" fill-rule="evenodd"/>
 </g>
 </svg>
