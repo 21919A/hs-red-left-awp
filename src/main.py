@@ -35,6 +35,7 @@ def autonomous_function():
     trigger_mover.move(Position(-300, 1300))
     trigger_mover.move(Position(-600, 1200))
     trigger_mover.move(Position(-300, 1150))
+    wait(1500, MSEC)
     trigger_mover.move(Position(-300, 300))
     clamp.set(False)
 
