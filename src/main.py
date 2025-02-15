@@ -30,6 +30,7 @@ def autonomous_function():
 
     slow_trigger_mover.move(Position(-600, 600), REVERSE)
     wait_and_clamp()
+    intake.spin_forward()
 
     # Use this for 4-ring
     trigger_mover.move(Position(-600, 1200))
