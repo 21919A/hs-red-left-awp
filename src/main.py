@@ -23,8 +23,8 @@ def autonomous_function():
 
     log(("Competition", "competition"), "autonomous_begin")
 
-    robot_position.reset(Position(-1500, 1200))
-    inertial.set_heading(304)
+    robot_position.reset(Position(-1200, 980))
+    inertial.set_heading(302.5)
 
     reset_robot_position_and_heading_to_gps()
 
