@@ -18,6 +18,24 @@ def driver_function():
     log(("Competition", "competition"), "driver_end")
 
 
+def alternative_autonomous_function():
+    """The alternative function for the autonomous part of a competition match"""
+
+    log(("Competition", "competition"), "autonomous_begin")
+    robot_position.reset(Position(-1300, 1500))
+    inertial.set_heading(90)
+
+    trigger_mover.move(Position(-600, 1520))
+
+    trigger_mover.move(Position(-450, 1500))
+
+    intake.spin_forward()
+
+    trigger_mover.move(Position(-150, 1350))
+
+    log(("Competition", "competition"), "autonomous_end")
+
+
 def autonomous_function():
     """Function for the autonomous part of a competition match"""
 
