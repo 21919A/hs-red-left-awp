@@ -57,7 +57,7 @@ def autonomous_function():
     wait(1000, MSEC)
 
     trigger_mover.move(Position(-330, 970))
-    trigger_mover.move(Position(-420, 400))
+    trigger_mover.move(Position(-410, 450))
 
     # Use this for 4-ring
     # trigger_mover.move(Position(-600, 1200))
